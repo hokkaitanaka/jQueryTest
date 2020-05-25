@@ -1,0 +1,48 @@
+﻿body {
+	margin: auto;
+	padding: 0px;
+	background-image: url("../image/wall.gif");
+	font-family: "メイリオ", "ヒラギノ角ゴ Pro W3";
+}
+div {
+	margin: auto;
+	padding: 10px;
+}
+div#wrapper {
+	width: 660px;
+	background-color: White;
+}
+div#header {
+	background-color: #FDE5EF;
+}
+div#eyecatch {
+	margin: 10px auto 0px;
+	padding: 0px;
+	position: relative;
+	height: 200px;
+}
+div#eyecatch img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+div#eyecatch img.next {
+	display: none;
+}
+div#nav {
+	margin: 10px auto;
+	width: 150px;
+	float: left;
+	background-color: #E5F5F9;
+}
+div#article {
+	margin: 10px auto;
+	height: 300px;
+	width: 460px;
+	float: right;
+	background-color: #FFF0E6;
+}
+div#footer {
+	clear: both;
+	background-color: #EFE5FA;
+}
